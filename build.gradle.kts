@@ -30,6 +30,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.flywaydb:flyway-core")
 	implementation("org.flywaydb:flyway-database-postgresql")
+	implementation("org.springframework.boot:spring-boot-starter-security")
+	testImplementation("org.springframework.security:spring-security-test")
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	developmentOnly("org.springframework.boot:spring-boot-docker-compose")
@@ -38,7 +40,6 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	runtimeOnly("io.micrometer:micrometer-registry-prometheus")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-
 }
 
 tasks.withType<Test> {
