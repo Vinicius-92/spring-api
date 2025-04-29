@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 'spring-api'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [ "prometheus" ]
+      base-path: "/actuator"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true
