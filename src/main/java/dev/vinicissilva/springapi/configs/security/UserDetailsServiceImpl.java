@@ -10,11 +10,11 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 @AllArgsConstructor
 public class UserDetailsServiceImpl implements UserDetailsService {
-    private final UsersRepository userRepository;
+  private final UsersRepository userRepository;
 
-    @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        User user = userRepository.findByEmail(username).orElseThrow(UserNotFoundException::new);
-        return new UserDetailsImpl(user);
-    }
+  @Override
+  public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+    User user = userRepository.findByEmail(username).orElseThrow(UserNotFoundException::new);
+    return new UserDetailsImpl(user);
+  }
 }
