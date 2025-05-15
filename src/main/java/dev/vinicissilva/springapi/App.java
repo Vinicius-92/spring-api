@@ -2,10 +2,12 @@ package dev.vinicissilva.springapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableFeignClients
 @SpringBootApplication
-public class SpringApiApplication {
+public class App {
 	public static void main(String[] args) {
-		SpringApplication.run(SpringApiApplication.class, args);
+		SpringApplication.run(App.class, args);
 	}
 }
