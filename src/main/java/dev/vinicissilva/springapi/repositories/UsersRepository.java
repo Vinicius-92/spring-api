@@ -1,5 +1,6 @@
-package dev.vinicissilva.springapi.configs;
+package dev.vinicissilva.springapi.repositories;
 
+import dev.vinicissilva.springapi.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

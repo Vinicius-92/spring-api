@@ -1,4 +1,4 @@
-package dev.vinicissilva.springapi.configs;
+package dev.vinicissilva.springapi.configs.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

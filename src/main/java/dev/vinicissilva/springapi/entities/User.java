@@ -1,4 +1,4 @@
-package dev.vinicissilva.springapi.configs;
+package dev.vinicissilva.springapi.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

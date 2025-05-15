@@ -1,4 +1,4 @@
-package dev.vinicissilva.springapi.configs;
+package dev.vinicissilva.springapi.configs.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

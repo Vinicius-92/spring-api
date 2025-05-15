@@ -1,5 +1,8 @@
-package dev.vinicissilva.springapi.configs;
+package dev.vinicissilva.springapi.configs.security;
 
+import dev.vinicissilva.springapi.entities.User;
+import dev.vinicissilva.springapi.exceptions.UserNotFoundException;
+import dev.vinicissilva.springapi.repositories.UsersRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

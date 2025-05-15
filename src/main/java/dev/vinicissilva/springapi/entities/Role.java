@@ -1,5 +1,6 @@
-package dev.vinicissilva.springapi.configs;
+package dev.vinicissilva.springapi.entities;
 
+import dev.vinicissilva.springapi.enums.RoleName;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

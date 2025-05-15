@@ -1,5 +1,6 @@
-package dev.vinicissilva.springapi.configs;
+package dev.vinicissilva.springapi.configs.security;
 
+import dev.vinicissilva.springapi.entities.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
